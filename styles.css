@@ -149,3 +149,15 @@ html, body{
 .price-add-to-cart {
     padding-top: 10px;
 }
+
+.class-btn {
+    background-color: #232c30;
+    color: white;
+    padding: 0.6em;
+    border-radius: 0.3em; 
+}
+
+.class-btn:hover {
+    background-color: #607a7b;
+    cursor: pointer;
+}
