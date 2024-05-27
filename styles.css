@@ -153,11 +153,68 @@ html, body{
 .class-btn {
     background-color: #232c30;
     color: white;
-    padding: 0.6em;
+    padding: 0.7em;
+    border: none;
     border-radius: 0.3em; 
 }
 
 .class-btn:hover {
     background-color: #607a7b;
     cursor: pointer;
+}
+
+.cart-rows-header {
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+}
+
+.cart-row-header {
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-right: 50px;
+}
+
+/* .cart-rows{
+    display: flex;
+} */
+
+.cart-row {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cart-image {
+    height: 80px;
+    border-radius: 10%;
+}
+
+.btn-danger {
+    background-color: rgb(210, 24, 24);
+}
+
+.cart-item {
+    display: flex;
+    width: 10%;
+    flex-grow: 1;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cart-price {
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.cart-quantity-group {
+    width: 30%;
+}
+
+.cart-item-name {
+    padding-left: 20px;
 }
