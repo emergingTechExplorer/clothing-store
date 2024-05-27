@@ -60,6 +60,7 @@ html, body{
 
 .text-block {
     text-align: justify;
+    margin-bottom: 15%;
 }
 
 .company-logo {
@@ -202,7 +203,6 @@ html, body{
     width: 10%;
     flex-grow: 1;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .cart-price {
