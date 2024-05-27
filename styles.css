@@ -126,8 +126,6 @@ body {
 
 .shop-image {
     width: 250px;
-    mix-blend-mode: multiply;
-    filter: brightness(0.9) contrast(2.2);
 }
 
 .shop-item-title {
@@ -194,8 +192,6 @@ body {
 .cart-image {
     height: 80px;
     border-radius: 10%;
-    mix-blend-mode: multiply;
-    filter: brightness(0.9) contrast(2.2);
 }
 
 .btn-danger {
