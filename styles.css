@@ -229,8 +229,8 @@ body {
 .total-text{
     font-weight: bold;
     font-size: 1.4em;
-    flex-grow: 1;
-    text-align: end;
+    /* flex-grow: 1; */
+    /* text-align: end; */
     padding-right: 20px;
 }
 
@@ -241,6 +241,7 @@ body {
 
 .total-group {
     display: flex;
+    justify-content: right;
 }
 
 .purchase-btn{
